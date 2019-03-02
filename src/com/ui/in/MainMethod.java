@@ -9,6 +9,9 @@ public class MainMethod {
 		// TODO Auto-generated method stub
         ServiceClassImpl serviceClassImpl=new ServiceClassImpl();
         serviceClassImpl.AddingTable();
+        serviceClassImpl.DataIntoTable();
+        serviceClassImpl.DelteData();
+        serviceClassImpl.UpdateDataInTable();
 	}
 
 }

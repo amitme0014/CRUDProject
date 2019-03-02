@@ -14,20 +14,25 @@ public class ServiceClassImpl implements ServiceInterface {
 
 	@Override
 	public int DataIntoTable() {
+		DaoInterfaceImpl daoInterfaceImpl=new DaoInterfaceImpl();
+		return daoInterfaceImpl.DataIntoTable();
 		// TODO Auto-generated method stub
-		return 0;
+		//return 0;
 	}
 
 	@Override
 	public int UpdateDataInTable() {
 		// TODO Auto-generated method stub
-		return 0;
+		DaoInterfaceImpl daoInterfaceImpl=new DaoInterfaceImpl();
+		return daoInterfaceImpl.UpdateDataInTable();
+		//return 0;
 	}
 
 	@Override
 	public int DelteData() {
 		// TODO Auto-generated method stub
-		return 0;
+		DaoInterfaceImpl daoInterfaceImpl=new DaoInterfaceImpl();		
+		return daoInterfaceImpl.DelteData();
 	}
 
 }
